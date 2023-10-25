@@ -105,6 +105,20 @@ public func parsedMarkdownString(from markdownText: String,
                                               value: linkColor,
                                               range: NSRange(range, in: parsedString))
             }
+        case .linkTextWithUnderline(let range):
+            if let linkColor = textStyle.linkColor {
+                attributedString.addAttribute(AttributedStringKey.foregroundColor,
+                                              value: linkColor,
+                                              range: NSRange(range, in: parsedString))
+            }
+            if let underlineStyle = textStyle.underlineStyle {
+                attributedString.addAttributes([AttributedStringKey.underlineStyle: underlineStyle.rawValue],
+                                               range: NSRange(range, in: parsedString))
+            }
+            if let underlineColor = textStyle.underlineColor {
+                attributedString.addAttributes([AttributedStringKey.underlineColor: underlineColor],
+                                               range: NSRange(range, in: parsedString))
+            }
         }
         
         if let font = font {

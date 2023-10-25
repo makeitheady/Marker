@@ -23,11 +23,12 @@ enum MarkdownElement {
     case underline(range: Range<Index>)
     case link(range: Range<Index>, urlString: String)
     case inAppLink(range: Range<Index>)
+    case linkTextWithUnderline(range: Range<Index>)
     
     /// Range of characters that the elements apply to.
     var range: Range<Index> {
         switch self {
-        case .em(let range), .strong(let range), .strikethrough(let range), .underline(let range), .link(let range, _), .inAppLink(let range):
+        case .em(let range), .strong(let range), .strikethrough(let range), .underline(let range), .link(let range, _), .inAppLink(let range), .linkTextWithUnderline(let range):
             return range
         }
     }
