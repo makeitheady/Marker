@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5E7EF82C8B571E007874B7 /* ElementParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E7EF02C8B571E007874B7 /* ElementParserTests.swift */; };
+		0B5E7EF92C8B571E007874B7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B5E7EF12C8B571E007874B7 /* Info.plist */; };
+		0B5E7EFA2C8B571E007874B7 /* MarkdownParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E7EF22C8B571E007874B7 /* MarkdownParserTests.swift */; };
+		0B5E7EFB2C8B571E007874B7 /* TextStyleEquatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E7EF42C8B571E007874B7 /* TextStyleEquatableTests.swift */; };
+		0B5E7EFC2C8B571E007874B7 /* TextStyleFactoryFunctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E7EF52C8B571E007874B7 /* TextStyleFactoryFunctionTests.swift */; };
+		0B5E7EFD2C8B571E007874B7 /* TextTransformEquatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5E7EF62C8B571E007874B7 /* TextTransformEquatableTests.swift */; };
 		271C85941ED4E2A000F8BBBB /* Marker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271C858A1ED4E2A000F8BBBB /* Marker.framework */; };
 		271C859B1ED4E2A000F8BBBB /* Marker.h in Headers */ = {isa = PBXBuildFile; fileRef = 271C858D1ED4E2A000F8BBBB /* Marker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		271C85B61ED4E2B700F8BBBB /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C85A41ED4E2B700F8BBBB /* Marker.swift */; };
@@ -21,7 +27,6 @@
 		271C85C31ED4E2B700F8BBBB /* TagParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C85B21ED4E2B700F8BBBB /* TagParser.swift */; };
 		271C85C51ED4E2B700F8BBBB /* TextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C85B41ED4E2B700F8BBBB /* TextStyle.swift */; };
 		271C85C61ED4E2B700F8BBBB /* TextTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C85B51ED4E2B700F8BBBB /* TextTransform.swift */; };
-		271C85C91ED4E37700F8BBBB /* MarkdownParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C85C81ED4E37700F8BBBB /* MarkdownParserTests.swift */; };
 		27C4E5D01ED5ED2400DDE387 /* Marker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C4E5C71ED5ED2400DDE387 /* Marker.framework */; };
 		27C4E5EC1ED5ED3100DDE387 /* Marker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C4E5E31ED5ED3000DDE387 /* Marker.framework */; };
 		27C4E5FA1ED5ED6400DDE387 /* Marker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C85A41ED4E2B700F8BBBB /* Marker.swift */; };
@@ -59,14 +64,9 @@
 		4801047D1FA1355F00F20FF8 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480104761FA1355F00F20FF8 /* Token.swift */; };
 		4801047E1FA1355F00F20FF8 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480104761FA1355F00F20FF8 /* Token.swift */; };
 		4801047F1FA1355F00F20FF8 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480104761FA1355F00F20FF8 /* Token.swift */; };
-		480C7A5F1F15832A0094E4EA /* MarkdownParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C85C81ED4E37700F8BBBB /* MarkdownParserTests.swift */; };
-		480C7A601F15832A0094E4EA /* MarkdownParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271C85C81ED4E37700F8BBBB /* MarkdownParserTests.swift */; };
 		481303A01FA3BA7C001F1DF1 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4813039F1FA3BA7C001F1DF1 /* String+Extensions.swift */; };
 		481303A11FA3BC64001F1DF1 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4813039F1FA3BA7C001F1DF1 /* String+Extensions.swift */; };
 		481303A21FA3BC65001F1DF1 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4813039F1FA3BA7C001F1DF1 /* String+Extensions.swift */; };
-		481B0A771FA9143800CB651C /* ElementParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481B0A751FA9142D00CB651C /* ElementParserTests.swift */; };
-		481B0A781FA9143800CB651C /* ElementParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481B0A751FA9142D00CB651C /* ElementParserTests.swift */; };
-		481B0A791FA9143900CB651C /* ElementParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481B0A751FA9142D00CB651C /* ElementParserTests.swift */; };
 		484053B21F72EA6000626C55 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484053A21F72EA4F00626C55 /* UIButtonExtension.swift */; };
 		484053B31F72EA6000626C55 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484053A41F72EA4F00626C55 /* Color.swift */; };
 		484053B41F72EA6000626C55 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484053A61F72EA4F00626C55 /* Font.swift */; };
@@ -90,18 +90,9 @@
 		48F232751F1FB7B600E86D5D /* TextTransform+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232741F1FB7B600E86D5D /* TextTransform+Extensions.swift */; };
 		48F232761F1FB7B600E86D5D /* TextTransform+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232741F1FB7B600E86D5D /* TextTransform+Extensions.swift */; };
 		48F232771F1FB7B600E86D5D /* TextTransform+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232741F1FB7B600E86D5D /* TextTransform+Extensions.swift */; };
-		48F2327C1F1FBA4400E86D5D /* TextTransformEquatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232781F1FBA2200E86D5D /* TextTransformEquatableTests.swift */; };
-		48F2327D1F1FBA4400E86D5D /* TextTransformEquatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232781F1FBA2200E86D5D /* TextTransformEquatableTests.swift */; };
-		48F2327E1F1FBA4500E86D5D /* TextTransformEquatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232781F1FBA2200E86D5D /* TextTransformEquatableTests.swift */; };
 		48F232801F1FBA7800E86D5D /* TextStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2327F1F1FBA7800E86D5D /* TextStyle+Extensions.swift */; };
 		48F232811F1FBA7800E86D5D /* TextStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2327F1F1FBA7800E86D5D /* TextStyle+Extensions.swift */; };
 		48F232821F1FBA7800E86D5D /* TextStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F2327F1F1FBA7800E86D5D /* TextStyle+Extensions.swift */; };
-		48F232841F1FBD1300E86D5D /* TextStyleEquatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232831F1FBD1300E86D5D /* TextStyleEquatableTests.swift */; };
-		48F232851F1FBD1300E86D5D /* TextStyleEquatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232831F1FBD1300E86D5D /* TextStyleEquatableTests.swift */; };
-		48F232861F1FBD1300E86D5D /* TextStyleEquatableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232831F1FBD1300E86D5D /* TextStyleEquatableTests.swift */; };
-		48F232881F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232871F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift */; };
-		48F232891F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232871F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift */; };
-		48F2328A1F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F232871F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,11 +120,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B5E7EF02C8B571E007874B7 /* ElementParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementParserTests.swift; sourceTree = "<group>"; };
+		0B5E7EF12C8B571E007874B7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5E7EF22C8B571E007874B7 /* MarkdownParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownParserTests.swift; sourceTree = "<group>"; };
+		0B5E7EF32C8B571E007874B7 /* MarkerTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MarkerTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0B5E7EF42C8B571E007874B7 /* TextStyleEquatableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyleEquatableTests.swift; sourceTree = "<group>"; };
+		0B5E7EF52C8B571E007874B7 /* TextStyleFactoryFunctionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyleFactoryFunctionTests.swift; sourceTree = "<group>"; };
+		0B5E7EF62C8B571E007874B7 /* TextTransformEquatableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTransformEquatableTests.swift; sourceTree = "<group>"; };
 		271C858A1ED4E2A000F8BBBB /* Marker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		271C858D1ED4E2A000F8BBBB /* Marker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Marker.h; sourceTree = "<group>"; };
 		271C858E1ED4E2A000F8BBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		271C85931ED4E2A000F8BBBB /* Marker-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marker-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		271C859A1ED4E2A000F8BBBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		271C85A41ED4E2B700F8BBBB /* Marker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marker.swift; sourceTree = "<group>"; };
 		271C85A91ED4E2B700F8BBBB /* Markup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Markup.swift; sourceTree = "<group>"; };
 		271C85AA1ED4E2B700F8BBBB /* NSAttributedString+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extensions.swift"; sourceTree = "<group>"; };
@@ -146,8 +143,6 @@
 		271C85B21ED4E2B700F8BBBB /* TagParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagParser.swift; sourceTree = "<group>"; };
 		271C85B41ED4E2B700F8BBBB /* TextStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyle.swift; sourceTree = "<group>"; };
 		271C85B51ED4E2B700F8BBBB /* TextTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTransform.swift; sourceTree = "<group>"; };
-		271C85C71ED4E37600F8BBBB /* MarkerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MarkerTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		271C85C81ED4E37700F8BBBB /* MarkdownParserTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownParserTests.swift; sourceTree = "<group>"; };
 		27C4E5C71ED5ED2400DDE387 /* Marker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C4E5CF1ED5ED2400DDE387 /* Marker-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marker-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C4E5E31ED5ED3000DDE387 /* Marker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Marker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,7 +151,6 @@
 		480104751FA1355F00F20FF8 /* TokenParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenParser.swift; sourceTree = "<group>"; };
 		480104761FA1355F00F20FF8 /* Token.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		4813039F1FA3BA7C001F1DF1 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		481B0A751FA9142D00CB651C /* ElementParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementParserTests.swift; sourceTree = "<group>"; };
 		484053A11F72EA4F00626C55 /* NSButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSButtonExtension.swift; sourceTree = "<group>"; };
 		484053A21F72EA4F00626C55 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		484053A41F72EA4F00626C55 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -168,10 +162,7 @@
 		484053B01F72EA4F00626C55 /* UITextViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextViewExtension.swift; sourceTree = "<group>"; };
 		484053D01F72EA9D00626C55 /* TextAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAttributes.swift; sourceTree = "<group>"; };
 		48F232741F1FB7B600E86D5D /* TextTransform+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextTransform+Extensions.swift"; sourceTree = "<group>"; };
-		48F232781F1FBA2200E86D5D /* TextTransformEquatableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTransformEquatableTests.swift; sourceTree = "<group>"; };
 		48F2327F1F1FBA7800E86D5D /* TextStyle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextStyle+Extensions.swift"; sourceTree = "<group>"; };
-		48F232831F1FBD1300E86D5D /* TextStyleEquatableTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyleEquatableTests.swift; sourceTree = "<group>"; };
-		48F232871F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextStyleFactoryFunctionTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,11 +214,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B5E7EF72C8B571E007874B7 /* MarkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B5E7EF02C8B571E007874B7 /* ElementParserTests.swift */,
+				0B5E7EF12C8B571E007874B7 /* Info.plist */,
+				0B5E7EF22C8B571E007874B7 /* MarkdownParserTests.swift */,
+				0B5E7EF32C8B571E007874B7 /* MarkerTests-Bridging-Header.h */,
+				0B5E7EF42C8B571E007874B7 /* TextStyleEquatableTests.swift */,
+				0B5E7EF52C8B571E007874B7 /* TextStyleFactoryFunctionTests.swift */,
+				0B5E7EF62C8B571E007874B7 /* TextTransformEquatableTests.swift */,
+			);
+			name = MarkerTests;
+			path = ../Tests/MarkerTests;
+			sourceTree = "<group>";
+		};
 		271C85801ED4E2A000F8BBBB = {
 			isa = PBXGroup;
 			children = (
+				0B5E7EF72C8B571E007874B7 /* MarkerTests */,
 				271C858C1ED4E2A000F8BBBB /* Marker */,
-				271C85971ED4E2A000F8BBBB /* MarkerTests */,
 				271C858B1ED4E2A000F8BBBB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -262,20 +268,6 @@
 				4840539E1F72EA4F00626C55 /* Utility */,
 			);
 			path = Marker;
-			sourceTree = "<group>";
-		};
-		271C85971ED4E2A000F8BBBB /* MarkerTests */ = {
-			isa = PBXGroup;
-			children = (
-				481B0A751FA9142D00CB651C /* ElementParserTests.swift */,
-				271C85C81ED4E37700F8BBBB /* MarkdownParserTests.swift */,
-				48F232831F1FBD1300E86D5D /* TextStyleEquatableTests.swift */,
-				48F232871F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift */,
-				48F232781F1FBA2200E86D5D /* TextTransformEquatableTests.swift */,
-				271C859A1ED4E2A000F8BBBB /* Info.plist */,
-				271C85C71ED4E37600F8BBBB /* MarkerTests-Bridging-Header.h */,
-			);
-			path = MarkerTests;
 			sourceTree = "<group>";
 		};
 		271C85AB1ED4E2B700F8BBBB /* Parser */ = {
@@ -597,6 +589,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5E7EF92C8B571E007874B7 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,11 +660,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F2327C1F1FBA4400E86D5D /* TextTransformEquatableTests.swift in Sources */,
-				481B0A771FA9143800CB651C /* ElementParserTests.swift in Sources */,
-				48F232881F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift in Sources */,
-				48F232841F1FBD1300E86D5D /* TextStyleEquatableTests.swift in Sources */,
-				271C85C91ED4E37700F8BBBB /* MarkdownParserTests.swift in Sources */,
+				0B5E7EF82C8B571E007874B7 /* ElementParserTests.swift in Sources */,
+				0B5E7EFC2C8B571E007874B7 /* TextStyleFactoryFunctionTests.swift in Sources */,
+				0B5E7EFD2C8B571E007874B7 /* TextTransformEquatableTests.swift in Sources */,
+				0B5E7EFB2C8B571E007874B7 /* TextStyleEquatableTests.swift in Sources */,
+				0B5E7EFA2C8B571E007874B7 /* MarkdownParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -711,11 +704,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F2327D1F1FBA4400E86D5D /* TextTransformEquatableTests.swift in Sources */,
-				481B0A781FA9143800CB651C /* ElementParserTests.swift in Sources */,
-				48F232891F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift in Sources */,
-				48F232851F1FBD1300E86D5D /* TextStyleEquatableTests.swift in Sources */,
-				480C7A601F15832A0094E4EA /* MarkdownParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -754,11 +742,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48F2327E1F1FBA4500E86D5D /* TextTransformEquatableTests.swift in Sources */,
-				481B0A791FA9143900CB651C /* ElementParserTests.swift in Sources */,
-				48F2328A1F1FC2F900E86D5D /* TextStyleFactoryFunctionTests.swift in Sources */,
-				48F232861F1FBD1300E86D5D /* TextStyleEquatableTests.swift in Sources */,
-				480C7A5F1F15832A0094E4EA /* MarkdownParserTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -834,7 +817,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -842,6 +826,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -892,12 +877,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 12.0;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -917,7 +904,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Marker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULE_NAME = Marker;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.Marker;
@@ -941,7 +928,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Marker/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULE_NAME = Marker;
 				PRODUCT_BUNDLE_IDENTIFIER = com.prolificinteractive.Marker;
