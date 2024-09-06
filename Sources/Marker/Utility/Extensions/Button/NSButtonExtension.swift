@@ -6,6 +6,7 @@
 //  Copyright © 2017 Prolific Interactive. All rights reserved.
 //
 
+#if canImport(AppKit)
 import AppKit
 
 public extension NSButton {
@@ -32,3 +33,4 @@ public extension NSButton {
     }
 
 }
+#endif

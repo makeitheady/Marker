@@ -6,6 +6,7 @@
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public extension UITextField {
@@ -32,3 +33,4 @@ public extension UITextField {
     }
 
 }
+#endif

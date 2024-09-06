@@ -6,6 +6,14 @@
 //  Copyright © 2017 Prolific Interactive. All rights reserved.
 //
 
+#if canImport(UIKit)
+import UIKit
+#endif
+
+#if canImport(AppKit)
+import AppKit
+#endif
+
 extension NSAttributedString {
     
     /// Initializes `NSAttributedString` instance with given string and text style.

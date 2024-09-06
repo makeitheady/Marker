@@ -1,14 +1,15 @@
 //
-//  NSTextViewExtension.swift
+//  NSTextFieldExtension.swift
 //  Marker
 //
 //  Created by Michael Campbell on 5/24/17.
 //  Copyright © 2017 Prolific Interactive. All rights reserved.
 //
 
+#if canImport(AppKit)
 import AppKit
 
-public extension NSTextView {
+public extension NSTextField {
 
     /// Sets the text view text to an attributed string created from the specified string and text style.
     ///
@@ -17,8 +18,7 @@ public extension NSTextView {
     ///   - textStyle: Text style object containing style information.
     ///   - markups: Custom markup if there is any. Defaults to zero custom markup.
     func setText(_ text: String, using textStyle: TextStyle, customMarkup markups: Markup = [:]) {
-        let attributedText = attributedMarkupString(from: text, using: textStyle, customMarkup: markups)
-        textStorage?.setAttributedString(attributedText)
+        attributedStringValue = attributedMarkupString(from: text, using: textStyle, customMarkup: markups)
     }
 
     /// Sets the text view text to an attributed string created from the specified string and text style.
@@ -29,12 +29,8 @@ public extension NSTextView {
     ///   - markdownText: The Markdown text to be displayed in the text view.
     ///   - textStyle: Text style object containing style information.
     func setMarkdownText(_ markdownText: String, using textStyle: TextStyle) {
-        if let linkColor = textStyle.linkColor {
-            linkTextAttributes = [AttributedStringKey.foregroundColor: linkColor]
-        }
-
-        let attributedText = attributedMarkdownString(from: markdownText, using: textStyle)
-        textStorage?.setAttributedString(attributedText)
+        attributedStringValue = attributedMarkdownString(from: markdownText, using: textStyle)
     }
-    
+
 }
+#endif
