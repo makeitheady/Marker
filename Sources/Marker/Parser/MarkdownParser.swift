@@ -6,6 +6,8 @@
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
+import Foundation
+
 /// Markdown parser.
 struct MarkdownParser {
     
@@ -33,6 +35,7 @@ struct MarkdownParser {
     private static let linkURLOpeningSymbol = Symbol(character: "(")
     private static let linkURLClosingSymbol = Symbol(character: ")")
     private static let inAppLinkSymbol = Symbol(rawValue: "--")
+    private static let linkTextWithUnderlineSymbol = Symbol(rawValue: "##")
     
     // MARK: - Static functions
     
@@ -47,7 +50,8 @@ struct MarkdownParser {
             let asteriskStrongSymbol = asteriskStrongSymbol,
             let tildeStrikethroughSymbol = tildeStrikethroughSymbol,
             let equalUnderlineSymbol = equalUnderlineSymbol,
-            let inAppLinkSymbol = inAppLinkSymbol else {
+            let inAppLinkSymbol = inAppLinkSymbol,
+            let linkTextWithUnderlineSymbol = linkTextWithUnderlineSymbol else {
                 return (string, [])
         }
 
@@ -60,6 +64,7 @@ struct MarkdownParser {
         let linkTextRule = Rule(openingSymbol: linkTextOpeningSymbol, closingSymbol: linkTextClosingSymbol)
         let linkURLRule = Rule(openingSymbol: linkURLOpeningSymbol, closingSymbol: linkURLClosingSymbol)
         let inAppLinkRule = Rule(symbol: inAppLinkSymbol)
+        let linkTextWithUnderlineRule = Rule(symbol: linkTextWithUnderlineSymbol)
 
         let tokens = try TokenParser.parse(string,
                                            using: [underscoreEmRule,
@@ -70,7 +75,8 @@ struct MarkdownParser {
                                                    equalUnderlineRule,
                                                    linkTextRule,
                                                    linkURLRule,
-                                                   inAppLinkRule])
+                                                   inAppLinkRule,
+                                                   linkTextWithUnderlineRule])
 
         guard tokens.count > 0 else {
             return (string, [])
@@ -112,6 +118,9 @@ struct MarkdownParser {
             case .some(inAppLinkRule):
                 let range = strippedString.append(contentOf: token)
                 elements.append(.inAppLink(range: range))
+            case .some(linkTextWithUnderlineRule):
+                let range = strippedString.append(contentOf: token)
+                elements.append(.linkTextWithUnderline(range: range))
             default:
                 strippedString += token.stringWithRuleSymbols
             }

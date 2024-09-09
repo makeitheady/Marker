@@ -6,6 +6,7 @@
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public extension UIButton {
@@ -39,3 +40,4 @@ public extension UIButton {
     }
     
 }
+#endif
